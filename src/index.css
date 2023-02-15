@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* *******************************General STYLE******************************* */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 2000px;
+    font-family: 'Roboto', sans-serif;
+    /* background-color:rgba(0,0,0,0.8); */
+}
+/* *******************************SCROLL BAR STYLE******************************* */
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(#422747,#121212,#322550);
+}
+::-webkit-scrollbar-track{
+background-color:#ccc;
 }

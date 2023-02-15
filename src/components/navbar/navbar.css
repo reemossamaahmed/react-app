@@ -1,0 +1,9 @@
+.icons{
+    display: flex;
+    gap: 5px;
+    margin: 0 100px;
+}
+.icon{
+    color: #fff;
+    font-size: 18px;
+}
