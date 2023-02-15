@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/reemossamaahmed/React-project.git/static/css/main.821cf4c4.css",
+    "main.js": "/reemossamaahmed/React-project.git/static/js/main.a4652941.js",
+    "static/media/Nepal.jpg": "/reemossamaahmed/React-project.git/static/media/Nepal.395383479979a20ab7bd.jpg",
+    "static/media/banner-bg.png": "/reemossamaahmed/React-project.git/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/header-img.svg": "/reemossamaahmed/React-project.git/static/media/header-img.417d33937dd5a21970815f160cc85516.svg",
+    "static/media/One.jpg": "/reemossamaahmed/React-project.git/static/media/One.be92d5fb090808153572.jpg",
+    "static/media/printer.jpg": "/reemossamaahmed/React-project.git/static/media/printer.c4b5a15132fb06a3a363.jpg",
+    "static/media/lab.jpg": "/reemossamaahmed/React-project.git/static/media/lab.7cfe20e57b842bb89e10.jpg",
+    "static/media/constract.jpg": "/reemossamaahmed/React-project.git/static/media/constract.8cbcefd8a16ccbba9a8a.jpg",
+    "static/media/undraw_feeling_proud_qne1.svg": "/reemossamaahmed/React-project.git/static/media/undraw_feeling_proud_qne1.9afe50d19e43096f4f6f038a604cec5c.svg",
+    "static/media/meter2.svg": "/reemossamaahmed/React-project.git/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
+    "static/media/meter1.svg": "/reemossamaahmed/React-project.git/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
+    "static/media/meter3.svg": "/reemossamaahmed/React-project.git/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
+    "index.html": "/reemossamaahmed/React-project.git/index.html",
+    "main.821cf4c4.css.map": "/reemossamaahmed/React-project.git/static/css/main.821cf4c4.css.map",
+    "main.a4652941.js.map": "/reemossamaahmed/React-project.git/static/js/main.a4652941.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.821cf4c4.css",
+    "static/js/main.a4652941.js"
+  ]
+}
