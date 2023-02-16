@@ -32,7 +32,7 @@ const SkillContainer = styled.div`
     left:50%;
     transform:translateX(-50%);
     top:-30%;
-    @media only screen and (max-width: 375px)  {
+    @media only screen and (max-width: 390px)  {
         width:90%;
         margin:100px auto;
         min-height:auto;
@@ -44,7 +44,7 @@ const SkillTitle = styled.h1`
     letter-spacing:2px;
     font-weight:bold;
     margin 20px 0;
-    @media only screen and (max-width: 375px)  {
+    @media only screen and (max-width: 390px)  {
         font-size:30px;
         letter-spacing:1px;
         margin: 10px 0;
@@ -55,8 +55,8 @@ const SkillDesc = styled.h3`
     font-size:25px;
     letter-spacing:4px;
     margin-bottom :30px;
-    @media only screen and (max-width: 375px)  {
-        font-size:15px;
+    @media only screen and (max-width: 390px)  {
+        font-size:18px;
         letter-spacing:2px;
         margin-bottom: 20px;
     }
@@ -66,7 +66,7 @@ const ContainerPercent = styled.div`
     width:75%;
     display:flex;
     align-items: center;
-    @media only screen and (max-width: 375px)  {
+    @media only screen and (max-width: 390px)  {
         width:100%;
     }
 `

@@ -5,8 +5,6 @@ import Img from '../assets/header-img.svg';
 import TypeWriterEffect from 'typewriter-effect';
 import {BsArrowRightCircle} from 'react-icons/bs';
 import Links from './Links';
-
-
 import 'animate.css';
 
 
@@ -26,17 +24,25 @@ const IMG = styled.img`
     position:absolute;
     width:30%;
     right:50px;
+    @media only screen and (max-width: 390px)  {
+        display:none;   
+    }
 `
 const BUTTON = styled.button`
     color:#fff;
     background:linear-gradient(#422747,#121212,#322550);
-    font-size:25px;
+    font-size:20px;
     letter-spacing:1px;
     font-weight:bold;
     padding:10px 15px;
     margin-top:90px;
-    margin-bottom:90px;
+    margin-bottom:70px;
     border:1px solid #ccc;
+    @media only screen and (max-width: 390px)  {
+        font-size:16px;
+        padding: 10px 10px;
+        margin-right:90px;
+    }
 `
 
 const Banner = (props) => {
@@ -45,8 +51,8 @@ const Banner = (props) => {
             <IMG className='animate__animated animate__tada  animate__delay-2s animate__infinite' src={Img} alt='banner' />
             <div>
                 <BUTTON>Welcome all in My Website</BUTTON>
-                <h2 style={{ color: '#fff', fontSize: '50px', letterSpacing: '2px', fontWeight: 'bold' }}>Hi!,<br /> I'm Reem Ossama Ahmed Helmy, </h2>
-                <div style={{ color: '#fff', fontSize: '50px', letterSpacing: '2px', fontWeight: 'bold' }}>
+                <h2 style={{ color: '#ccc', fontSize: '50px', letterSpacing: '2px', fontWeight: 'bold' }}>Hi!,<br/> I'm Reem Ossama, </h2>
+                <div style={{ color: '#fff', fontSize: '30px', letterSpacing: '2px', fontWeight: 'bold' }}>
                     <TypeWriterEffect options={{
                         autoStart: true,
                         loop: true,
@@ -59,11 +65,8 @@ const Banner = (props) => {
                     }}
                     />
                 </div>
-                <h3 style={{ color:'#aaa',letterSpacing:'2px',marginTop:'15px' }}>Hello Everyone, I have 2 years of Experience in Web Development</h3>
-                <div style={{ fontSize:'20px',color:'#fff',letterSpacing:'2px',margin:'50px 0' }}>Let's Connect<Links href='#contact'><BsArrowRightCircle style={{ fontSize:'28px' }}/></Links></div> 
+                <div style={{ fontSize:'20px',color:'#fff',letterSpacing:'2px',margin:'15px 0' }}>Let's Connect<Links href='#contact'><BsArrowRightCircle style={{ fontSize:'28px' }}/></Links></div> 
             </div>
-
-
         </BannerContainer>
     )
 }

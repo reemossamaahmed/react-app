@@ -25,7 +25,7 @@ const SubscriberContainer = styled.div`
         padding:10px;
     }
 
-    @media only screen and (max-width: 375px)  {
+    @media only screen and (max-width: 390px)  {
         margin-bottom:100px;
     }
 `;
@@ -34,7 +34,7 @@ const Left = styled.div``;
 const Description = styled.p`
     font-size:25px;
     letter-spacing:2px;
-    @media only screen and (max-width: 375px)  {
+    @media only screen and (max-width: 390px)  {
         font-size:15px;
         text-align:center
     }
@@ -51,7 +51,7 @@ const FormContainer = styled.div`
     display:flex;
     align-items:center;
     position:relative;
-    @media only screen and (max-width: 375px)  {
+    @media only screen and (max-width: 390px)  {
         width:15rem;
     }
 `;
@@ -59,7 +59,7 @@ const Input = styled.input`
     border:none;
     outline:none;
     font-size:20px;
-    @media only screen and (max-width: 375px)  {
+    @media only screen and (max-width: 390px)  {
         font-size:15px;
     }
 `;
@@ -72,7 +72,7 @@ const Button = styled.button`
     color:#fff;
     position:absolute;
     right:5px;
-    @media only screen and (max-width: 375px)  {
+    @media only screen and (max-width: 390px)  {
         padding:10px 15px;
     }
 `;

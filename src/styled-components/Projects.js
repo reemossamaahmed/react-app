@@ -28,7 +28,7 @@ const Description = styled.p`
     color:#ddd;
     font-size:28px;
     letter-spacing:2px;
-    @media only screen and (max-width: 375px)  {
+    @media only screen and (max-width: 390px)  {
         font-size:20px;
         letter-spacing:1px;
     }
@@ -54,7 +54,7 @@ const Nav = styled.nav`
     .active{
         background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
     }
-    @media only screen and (max-width: 375px)  {
+    @media only screen and (max-width: 390px)  {
         width:20em;
         margin-bottom:60px;
     }

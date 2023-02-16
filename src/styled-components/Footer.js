@@ -38,6 +38,7 @@ const FooterContainer = styled.div`
         flex-direction:column;
         justify-content:center;
     }
+
 `;
 
 const Left = styled.div`
@@ -47,6 +48,9 @@ const Left = styled.div`
     @media only screen and (max-width: 769px)  {
         flex-direction:row;
         justify-content:center;
+    }
+    @media only screen and (max-width: 390px)  {
+        
     }
 `;
 
@@ -69,6 +73,9 @@ const Logo = styled.h1`
     font-weight:bold;
     cursor:pointer;
     padding-bottom:5px;
+    @media only screen and (max-width: 390px)  {
+        margin-top:200px;   
+    }
 `;
 
 const CopyRight = styled.p`
