@@ -39,7 +39,7 @@ const DivIcon = styled.a`
 
 function NavBar() {
     return (
-        <Navbar expand="lg" className="fixed-top" style={{ padding:'25px',backgroundColor:'rgba(0,0,0,0.3)' }}>
+        <Navbar expand="lg" className="fixed-top" style={{ padding:'25px',backgroundColor:'rgba(0,0,0,0.5)' }}>
             <Container fluid>
                 <Navbar.Brand href="#" style={{ color:'#fff',letterSpacing:'2px',fontSize:'50px' }}>REEM</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" style={{ background:'#ccc' }} />
