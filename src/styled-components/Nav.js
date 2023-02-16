@@ -20,8 +20,8 @@ const DivIcon = styled.a`
     align-items: center;
     justify-content: center;
     background-color: rgba(255,255,255,0.1);
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     border:1px solid #ccc;
     margin: 0 5px;
@@ -41,7 +41,7 @@ function NavBar() {
     return (
         <Navbar expand="lg" className="fixed-top" style={{ padding:'25px',backgroundColor:'rgba(0,0,0,0.3)' }}>
             <Container fluid>
-                <Navbar.Brand href="#" style={{ color:'#fff',letterSpacing:'2px',fontSize:'50px' }}>LOGO</Navbar.Brand>
+                <Navbar.Brand href="#" style={{ color:'#fff',letterSpacing:'2px',fontSize:'50px' }}>REEM</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" style={{ background:'#ccc' }} />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
