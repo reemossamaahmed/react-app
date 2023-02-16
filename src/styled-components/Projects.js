@@ -66,9 +66,9 @@ const Projects = (props) => {
             <Title>Projects</Title>
             <Description>You can see My Projects Here</Description>
             <Nav>
-                    <NavLink className='active' to='/projects/'>Projects</NavLink>
-                    <NavLink to='/projects/front'>Personal Data</NavLink>
-                    <NavLink to='/projects/back'>data</NavLink>
+                    <NavLink to='/react-app/'>Projects</NavLink>
+                    <NavLink to='/react-app/front'>Personal Data</NavLink>
+                    <NavLink to='/react-app/back'>data</NavLink>
             </Nav>
             <Outlet/>
         </Container>

@@ -25,9 +25,9 @@ function App() {
 
       <Routes>
         <Route>
-          <Route path="/projects/" element={<Portfolio/>}/>
-          <Route path="/projects/front" element={<PersonalCard/>}/>
-          <Route path="/projects/back" element={<Test/>}/>
+          <Route path="/react-app/" element={<Portfolio/>}/>
+          <Route path="/react-app/front" element={<PersonalCard/>}/>
+          <Route path="/react-app/back" element={<Test/>}/>
         </Route>
       </Routes>
 
