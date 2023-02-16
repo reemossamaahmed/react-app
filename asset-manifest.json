@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.821cf4c4.css",
-    "main.js": "./static/js/main.94efe5f7.js",
+    "main.js": "./static/js/main.98fee4ec.js",
     "static/media/Nepal.jpg": "./static/media/Nepal.395383479979a20ab7bd.jpg",
     "static/media/banner-bg.png": "./static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/header-img.svg": "./static/media/header-img.417d33937dd5a21970815f160cc85516.svg",
@@ -15,10 +15,10 @@
     "static/media/meter3.svg": "./static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
     "index.html": "./index.html",
     "main.821cf4c4.css.map": "./static/css/main.821cf4c4.css.map",
-    "main.94efe5f7.js.map": "./static/js/main.94efe5f7.js.map"
+    "main.98fee4ec.js.map": "./static/js/main.98fee4ec.js.map"
   },
   "entrypoints": [
     "static/css/main.821cf4c4.css",
-    "static/js/main.94efe5f7.js"
+    "static/js/main.98fee4ec.js"
   ]
 }
