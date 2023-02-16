@@ -72,7 +72,7 @@ const InputContainer = styled.div`
     width:100%;
     display:flex;
     justify-content:space-around;
-    @media only screen and (max-width: 390px)  {
+    @media only screen and (max-width: 414px)  {
         flex-direction:column;
         gap:15px
     }
@@ -94,7 +94,7 @@ const Input = styled.input`
         font-size:25px;
     }
 
-    @media only screen and (max-width: 390px)  {
+    @media only screen and (max-width: 414px)  {
         width:100%;
         &::placeholder{
         padding: 0 10px;
@@ -119,7 +119,7 @@ const TextArea = styled.textarea`
         font-size:25px;
     }
 
-    @media only screen and (max-width: 390px)  {
+    @media only screen and (max-width: 414px)  {
         &::placeholder{
         padding: 0 10px;
         font-size:18px;

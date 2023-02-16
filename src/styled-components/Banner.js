@@ -24,7 +24,7 @@ const IMG = styled.img`
     position:absolute;
     width:30%;
     right:50px;
-    @media only screen and (max-width: 390px)  {
+    @media only screen and (max-width: 414px)  {
         display:none;   
     }
 `
@@ -38,10 +38,11 @@ const BUTTON = styled.button`
     margin-top:90px;
     margin-bottom:70px;
     border:1px solid #ccc;
-    @media only screen and (max-width: 390px)  {
+    @media only screen and (max-width: 414px)  {
         font-size:16px;
         padding: 10px 10px;
         margin-right:90px;
+        margin-bottom:50px;
     }
 `
 
@@ -50,9 +51,9 @@ const Banner = (props) => {
         <BannerContainer id={props.id}>
             <IMG className='animate__animated animate__tada  animate__delay-2s animate__infinite' src={Img} alt='banner' />
             <div>
-                <BUTTON>Welcome all in My Website</BUTTON>
-                <h2 style={{ color: '#ccc', fontSize: '50px', letterSpacing: '2px', fontWeight: 'bold' }}>Hi!,<br/> I'm Reem Ossama, </h2>
-                <div style={{ color: '#fff', fontSize: '30px', letterSpacing: '2px', fontWeight: 'bold' }}>
+                <BUTTON>Welcome in My Website</BUTTON>
+                <h2 style={{ color: '#ccc', fontSize: '50px', letterSpacing: '2px', fontWeight: 'bold' }}>Hi!,<br/> I'm Reem, </h2>
+                <div style={{ color: '#fff', fontSize: '25px', letterSpacing: '1px'}}>
                     <TypeWriterEffect options={{
                         autoStart: true,
                         loop: true,

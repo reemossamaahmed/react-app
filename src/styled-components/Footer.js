@@ -49,9 +49,6 @@ const Left = styled.div`
         flex-direction:row;
         justify-content:center;
     }
-    @media only screen and (max-width: 390px)  {
-        
-    }
 `;
 
 const Right = styled.div`
@@ -73,7 +70,7 @@ const Logo = styled.h1`
     font-weight:bold;
     cursor:pointer;
     padding-bottom:5px;
-    @media only screen and (max-width: 390px)  {
+    @media only screen and (max-width: 414px)  {
         margin-top:200px;   
     }
 `;

@@ -5,7 +5,6 @@ import { NavLink, Outlet } from 'react-router-dom';
 const Container = styled.div`
     width:100%;
     min-height:25vh;
-    ${'' /* background:linear-gradient(#422747,#121212,#322550); */}
     background-color: rgba(20,20,20,1);
     display:flex;
     flex-direction:column;
@@ -17,7 +16,7 @@ const Title = styled.h2`
     letter-spacing:2px;
     font-weight:bold;
     padding:30px 0;
-    @media only screen and (max-width: 375px)  {
+    @media only screen and (max-width: 414px)  {
         font-size:20px;
         letter-spacing:1px;
         font-weight:normal;
@@ -28,7 +27,7 @@ const Description = styled.p`
     color:#ddd;
     font-size:28px;
     letter-spacing:2px;
-    @media only screen and (max-width: 390px)  {
+    @media only screen and (max-width: 414px)  {
         font-size:20px;
         letter-spacing:1px;
     }
@@ -54,7 +53,7 @@ const Nav = styled.nav`
     .active{
         background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
     }
-    @media only screen and (max-width: 390px)  {
+    @media only screen and (max-width: 414px)  {
         width:20em;
         margin-bottom:60px;
     }
