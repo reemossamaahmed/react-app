@@ -66,7 +66,7 @@ const Projects = (props) => {
             <Title>Projects</Title>
             <Description>You can see My Projects Here</Description>
             <Nav>
-                    <NavLink to='/projects/'>Projects</NavLink>
+                    <NavLink className='active' to='/projects/'>Projects</NavLink>
                     <NavLink to='/projects/front'>Personal Data</NavLink>
                     <NavLink to='/projects/back'>data</NavLink>
             </Nav>
