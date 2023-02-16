@@ -19,8 +19,7 @@ const ButonStyle = styled.a`
     @media only screen and (max-width: 995px)  {
         font-size:18px;
         padding:5px 14px;
-        margin-left:50px;
-        margin-top:10px;
+        margin-left:95px;
     }
 `;
 

@@ -44,6 +44,9 @@ const BUTTON = styled.button`
         margin-right:90px;
         margin-bottom:50px;
     }
+    @media only screen and (max-width: 300px)  {
+        display:none;
+    }
 `
 
 const Banner = (props) => {

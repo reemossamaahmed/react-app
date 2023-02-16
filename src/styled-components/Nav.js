@@ -34,6 +34,8 @@ const DivIcon = styled.a`
         font-size:18px;
         width: 40px;
         height: 40px;
+        margin: 0 50px;
+        margin-bottom:20px;
     }
 `;
 
