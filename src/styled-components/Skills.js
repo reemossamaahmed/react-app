@@ -34,7 +34,7 @@ const SkillContainer = styled.div`
     top:-30%;
     @media only screen and (max-width: 414px)  {
         width:90%;
-        margin:100px auto;
+        margin:52px auto;
         min-height:auto;
     }
 `
