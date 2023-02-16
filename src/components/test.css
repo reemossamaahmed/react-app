@@ -14,15 +14,6 @@
     overflow: hidden;
 }
 
-@media screen and (max-width: 390px)  {
-.box{
-    width:320px;
-    height:320px;
-}      
-}
-
-
-
 .box::before{
     content: '';
     position: absolute;
@@ -137,3 +128,9 @@
     letter-spacing: 0.2em;
 
 }
+@media only screen and (max-width: 390px)  {
+    .box{
+        width:320px;
+        height:320px;
+    }      
+    }
